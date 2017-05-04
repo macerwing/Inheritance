@@ -5,9 +5,9 @@
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class stick extends tools
+public class Stick extends Tool
 {
-     public stick(String name, int weight, int value){
-        super(name,weight, value, 2);
+     public Stick(String name, int weight, int value){
+        super(name, weight, value, 2);
     }
 }
