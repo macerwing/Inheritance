@@ -6,7 +6,7 @@
  * @version (a version number or a date)
  */
 import java.util.ArrayList;
-public class Tool extends Item{
+public abstract class Tool extends Item{
     int damage;
     public Tool (String name, int weight, int value, int dmg){
         super(name, weight, value);

@@ -5,9 +5,21 @@
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class fire extends tools
+import java.util.ArrayList;
+public class Fire extends Tool
 {
- public fire(String name, int weight, int value){
-        super(name,weight, value,100);
+    int Fuel;
+     public Fire(String name, int weight, int value ,int dmg, int burn){
+        super(name,weight, value, 2);
+        Fuel = burn;
+          array = new ArrayList<Object>();
+        for (Object i : super.getStats()){ 
+            array.add(i);
+        }
+        array.add(damage);
+    }
+
+    public int getFuel(){
+        return Fuel;
     }
 }

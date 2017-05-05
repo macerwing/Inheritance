@@ -7,8 +7,7 @@
  */
 import java.util.ArrayList;
 import java.lang.Math;
-public class Armor extends Item implements DefenseCommands
-{
+public abstract class Armor extends Item implements DefenseCommands{
     int defence;
     ArrayList<Object> array;
     public Armor(String name, int weight, int value,int def){

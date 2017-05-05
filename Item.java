@@ -10,6 +10,7 @@ public abstract class Item implements ItemInterface{
     int weight;
     String name;
     int value;
+    int attack;
     ArrayList<Object> array;
     public Item(String Nm, int weight, int val ){
         this.weight = weight;
@@ -19,6 +20,7 @@ public abstract class Item implements ItemInterface{
         array.add(name);
         array.add(value);
         array.add(weight);
+        array.add(attack);
     }
     public int getWeight(){
         return weight;
