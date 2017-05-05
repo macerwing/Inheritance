@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=name\ weight\ value\ dmg\ pck
+comment0.target=Lockpick(java.lang.String,\ int,\ int,\ int,\ int)
+comment1.params=
+comment1.target=int\ getpick()
+numComments=2

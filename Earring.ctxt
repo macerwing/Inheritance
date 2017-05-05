@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=name\ weight\ value\ defence\ ete
+comment0.target=Earring(java.lang.String,\ int,\ int,\ int,\ int)
+comment1.params=
+comment1.target=java.util.ArrayList\ getStats()
+comment2.params=
+comment2.target=int\ gethearing()
+numComments=3
